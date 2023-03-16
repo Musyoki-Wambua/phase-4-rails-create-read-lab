@@ -1,6 +1,6 @@
 puts '🌱 Seeding plants...'
 
-Plant.create!([
+Plant.create([
   {
     name: 'Aloe',
     image: './images/aloe.jpg',
